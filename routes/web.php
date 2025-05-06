@@ -16,3 +16,9 @@ Route::get('/settings_admin', [SettingsController::class, 'index'])->name('setti
 
 use App\Http\Controllers\FeedbackController;
 Route::get('/feedback_admin', [FeedbackController::class, 'index'])->name('feedback_admin');
+
+use App\Http\Controllers\RoomDataController;
+Route::get('/room_data_admin', [RoomDataController::class, 'index'])->name('room_data_admin');
+
+use App\Http\Controllers\DataVerificationController;
+Route::get('/data_verification', [DataVerificationController::class, 'index'])->name('data_verification');
