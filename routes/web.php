@@ -10,3 +10,9 @@ Route::get('/users_data_admin', [UsersDataController::class, 'index'])->name('us
 
 use App\Http\Controllers\PendingDataController;
 Route::get('/pending_data_admin', [PendingDataController::class, 'index'])->name('pending_data_admin');
+
+use App\Http\Controllers\SettingsController;
+Route::get('/settings_admin', [SettingsController::class, 'index'])->name('settings_admin');
+
+use App\Http\Controllers\FeedbackController;
+Route::get('/feedback_admin', [FeedbackController::class, 'index'])->name('feedback_admin');
