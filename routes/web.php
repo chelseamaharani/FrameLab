@@ -22,3 +22,12 @@ Route::get('/room_data_admin', [RoomDataController::class, 'index'])->name('room
 
 use App\Http\Controllers\DataVerificationController;
 Route::get('/data_verification', [DataVerificationController::class, 'index'])->name('data_verification');
+
+use App\Http\Controllers\LoginController;
+Route::get('/login', [LoginController::class, 'index'])->name('login');
+
+use App\Http\Controllers\RegisterController;
+Route::get('/register', [RegisterController::class, 'index'])->name('register');
+
+use App\Http\Controllers\LandingPage1Controller;
+Route::get('/landing_page1', [LandingPage1Controller::class, 'index'])->name('landing_page1');
