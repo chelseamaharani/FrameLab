@@ -31,3 +31,17 @@ Route::get('/register', [RegisterController::class, 'index'])->name('register');
 
 use App\Http\Controllers\LandingPage1Controller;
 Route::get('/landing_page1', [LandingPage1Controller::class, 'index'])->name('landing_page1');
+
+use App\Http\Controllers\DetailStudioPhotoController;
+Route::get('/detail_studio_photo', [DetailStudioPhotoController::class, 'index'])->name('detail_studio_photo');
+
+use App\Http\Controllers\DetailStudioVideoController;
+Route::get('/detail_studio_video', [DetailStudioVideoController::class, 'index'])->name('detail_studio_video');
+
+use App\Http\Controllers\DetailStudioSpaceController;
+Route::get('/detail_studio_space', [DetailStudioSpaceController::class, 'index'])->name('detail_studio_space');
+
+use App\Http\Controllers\ChatAdminController;
+Route::get('/chat_admin', [ChatAdminController::class, 'index'])->name('chat_admin');
+
+
