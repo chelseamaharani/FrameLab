@@ -8,6 +8,6 @@ class FeedbackController extends Controller
 {
     public function index()
     {
-    return view('pages.feedback_admin'); // Pastikan ini sesuai dengan nama file blade
+        return view('pages.feedback_admin');
     }
 }

@@ -11,15 +11,14 @@
         <div class="flex flex-col md:flex-row justify-between items-center gap-4 mb-6">
             @include('components.search')
             @include('components.sortby')
-
         </div>
         <div class="overflow-x-auto">
-          		<table class="w-full text-center text-black">
-            		<thead>
-          				<tr class="bg-white text-black">
-        				<th class="px-4 py-2">No</th>
-            			<th class="px-4 py-2">Code Orders</th>
-            			<th class="px-4 py-2">Room Name</th>
+          	<table class="w-full text-center text-black">
+            	<thead>
+          			<tr class="bg-white text-black">
+        			    <th class="px-4 py-2">No</th>
+            		    <th class="px-4 py-2">Code Orders</th>
+            		    <th class="px-4 py-2">Room Name</th>
 			            <th class="px-4 py-2">Order Date</th>
 			            <th class="px-4 py-2">Total</th>
 				        <th class="px-4 py-2">Renters</th>
@@ -31,4 +30,5 @@
 		        </tbody>
 		    </table>
 	    </div>
+    </div>
 @endsection

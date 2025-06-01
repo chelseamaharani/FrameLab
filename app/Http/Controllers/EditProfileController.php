@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class SettingsController extends Controller
+class EditProfileController extends Controller
 {
     public function index()
     {
-        return view('pages.settings_admin');
+        return view('pages.edit_profile');
     }
 }

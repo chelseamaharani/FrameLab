@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class SettingsController extends Controller
+class MyOrdersController extends Controller
 {
     public function index()
     {
-        return view('pages.settings_admin');
+        return view('pages.my_orders');
     }
 }
