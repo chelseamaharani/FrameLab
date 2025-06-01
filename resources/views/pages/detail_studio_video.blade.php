@@ -1,4 +1,4 @@
-@extends('layouts.app1')
+@extends('layouts.app6')
 
 @section('title', 'Detail Studio Video')
 
@@ -18,7 +18,7 @@
       <h3 class="text-2xl">Pod Space</h3>
       <p class="text-xl mt-2">Rp. 100.000/Session</p>
       <p class="mt-4">Capture moments with your loved ones in 15 minutes! Photobooth with a simple and timeless concept, perfect for you and your bestie or partner</p>
-      <form action="/confirm_studio_space" method="POST">
+      <form action="/confirm_sewa_video" method="POST">
         @csrf
         <div class="mb-4">
           <label for="orderDate" class="block mb-2">Order Date</label>

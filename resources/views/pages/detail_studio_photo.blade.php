@@ -1,4 +1,4 @@
-@extends('layouts.app1')
+@extends('layouts.app6')
 
 @section('title', 'Detail Studio Photo')
 
@@ -33,7 +33,7 @@
             <option>11:00 - 11:15</option>
           </select>
         </div>
-        <button type="submit" class="w-[500px] bg-blue-600 hover:bg-blue-700 text-white py-3 px-4 rounded">Order Now</button>
+        <button type="confirm_sewa_photo" class="w-[500px] bg-blue-600 hover:bg-blue-700 text-white py-3 px-4 rounded">Order Now</button>
       </form>
     </div>
   </div>

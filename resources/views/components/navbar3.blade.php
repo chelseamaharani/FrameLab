@@ -3,15 +3,14 @@
     <a href="#hero">
       <img src="images/logo_framelab_beige_teks.png" alt="logo" class="h-12">
     </a>
-    <div class="hidden md:flex gap-12">
+    <div class="flex gap-12 mr-2">
       <a href="landing_page1" class="hover:underline">Home Page</a>
       <a href="landing_page1#services" class="hover:underline">Our Service</a>
       <a href="landing_page1#about" class="hover:underline">About Us</a>
     </div>
-    <div>
-      <a href="{{ url('/login') }}">
-        <button class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-3 rounded">Login / Sign Up</button>
-      </a>
-    </div>
+      <div class="flex items-center gap-2">
+        <span class="text-white">Hi, Anisa!</span>
+        <div class="w-10 h-10 bg-white rounded-full"></div>
+      </div>
   </div>
 </nav>

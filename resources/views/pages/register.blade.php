@@ -1,4 +1,4 @@
-@extends('layouts.auth')
+@extends('layouts.app5')
 
 @section('title', 'Register FrameLab')
 

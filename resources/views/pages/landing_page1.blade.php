@@ -1,7 +1,6 @@
-@extends('layouts.landing_page1')
+@extends('layouts.app3')
 
 @section('content')
-  @include('components.navbar1')
   @include('components.hero')
   @include('components.services')
   @include('components.why')
