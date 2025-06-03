@@ -20,9 +20,6 @@ Route::get('/feedback_admin', [FeedbackController::class, 'index'])->name('feedb
 use App\Http\Controllers\RoomDataController;
 Route::get('/room_data_admin', [RoomDataController::class, 'index'])->name('room_data_admin');
 
-use App\Http\Controllers\RoomPartnerController;
-Route::get('/room_partner_admin', [RoomPartnerController::class, 'index'])->name('room_partner_admin');
-
 use App\Http\Controllers\DataVerificationController;
 Route::get('/data_verification', [DataVerificationController::class, 'index'])->name('data_verification');
 
@@ -56,6 +53,9 @@ Route::get('/register', [registerController::class, 'index'])->name('register');
 use App\Http\Controllers\DetailStudioPhotoController;
 Route::get('/detail_studio_photo', [DetailStudioPhotoController::class, 'index'])->name('detail_studio_photo');
 
+use App\Http\Controllers\DetailStudioPhoto1Controller;
+Route::get('/detail_studio_photo1', [DetailStudioPhoto1Controller::class, 'index'])->name('detail_studio_photo1');
+
 use App\Http\Controllers\DetailStudioVideoController;
 Route::get('/detail_studio_video', [DetailStudioVideoController::class, 'index'])->name('detail_studio_video');
 
@@ -76,3 +76,6 @@ Route::post('/confirm_sewa_space', [ConfirmSewaSpaceController::class, 'index'])
 
 use App\Http\Controllers\StudioGabunganController;
 Route::get('/tampilan_studiogabungan', [StudioGabunganController::class, 'index'])->name('tampilan_studiogabungan');
+
+use App\Http\Controllers\DetailStudioPartnerController;
+Route::get('/detail_studio_partner', [DetailStudioPartnerController::class, 'index'])->name('detail_studio_partner');

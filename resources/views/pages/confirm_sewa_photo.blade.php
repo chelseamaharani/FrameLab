@@ -21,7 +21,7 @@
           <label class="block mb-1">Total Order</label>
           <input type="text" name="total_order" class="w-[500px] border border-white rounded-1xl py-1 px-2 text-primary" readonly />
         </div>
-        <h5 class="mt-4">Customer Info</h5>
+        <h5 class="mt-4">Orders Info</h5>
         <form action="confirm_sewa_photo.php" method="POST" enctype="multipart/form-data">
           <input type="text" class="w-[500px] border border-white rounded-none py-1 px-2 mb-2 text-primary" name="username" readonly />
           <input type="email" class="w-[500px] border border-white rounded-none py-1 px-2 mb-2 text-primary" name="email" readonly />

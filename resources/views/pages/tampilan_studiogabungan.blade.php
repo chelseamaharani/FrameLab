@@ -39,7 +39,7 @@
                 'image' => 'images/gambar2.jpeg',
                 'title' => 'Studio Pro Regular',
                 'price' => 'Rp. 185.000',
-                'link' => '',
+                'link' => 'detail_studio_photo1',
             ])
 
             @include('components.card_studio', [
@@ -143,7 +143,7 @@
                 'image' => 'images/gambar19.jpg',
                 'title' => 'LEXUS Photobox',
                 'price' => '',
-                'link' => '',
+                'link' => 'detail_studio_partner',
             ])
 
             @include('components.card_studio', [
