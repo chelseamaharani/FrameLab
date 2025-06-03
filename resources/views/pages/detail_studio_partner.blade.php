@@ -13,7 +13,7 @@
   <h2 class="text-center font-bold text-2xl mb-8">Detail Studio Space</h2>
 <div class="bg-primary text-white p-4 rounded-3xl flex flex-col md:flex-row items-start justify-start">
     <div class="w-1/2 h-[415px] overflow-hidden rounded-3xl ml-25">
-      <img src="{{ asset('images/gambar19.jpeg') }}" alt="LEXUS Photobox" class="w-full h-full object-cover rounded-3xl">
+      <img src="{{ asset('images/gambar19.jpg') }}" alt="LEXUS Photobox" class="w-full h-full object-cover rounded-3xl">
     </div>
 <div class="text-white pt-0 mt-0 self-start max-w-md w-full ml-14 mr-32">
       <h3 class="text-2xl font-bold mb-2">LEXUS Photobox</h3>
