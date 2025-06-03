@@ -23,6 +23,7 @@
 			            <th class="px-4 py-2">Total</th>
 				        <th class="px-4 py-2">Renters</th>
 				        <th class="px-4 py-2">Studio Type</th>
+						<th class="px-4 py-2">Status</th>
 				        <th class="px-4 py-2">Action</th>
             		</tr>
         		</thead>
