@@ -1,11 +1,14 @@
 **Framelab**
+
 *Framelab* adalah aplikasi berbasis web untuk penyewaan studio foto dan video.  
 Pengguna dapat melihat jadwal ketersediaan studio, melakukan pemesanan, dan membayar langsung secara online.
 
 **Status**
+
 Aplikasi saat ini masih dalam tahap pengembangan menggunakan Laravel 12.
 
 **Tujuan**
+
 Memberikan solusi digital bagi pelanggan yang ingin menyewa studio foto/video secara praktis tanpa perlu komunikasi manual atau pembayaran tunai.
 
 **Fitur Utama (yang direncanakan)**
@@ -17,6 +20,7 @@ Memberikan solusi digital bagi pelanggan yang ingin menyewa studio foto/video se
 - Notifikasi email atau WhatsApp (rencana)
 
 **Metode Pembayaran**
+
 Framelab hanya mendukung metode pembayaran melalui **QRIS** dengan integrasi Midtrans Snap API.
 
 **Teknologi**
@@ -30,5 +34,6 @@ Desain UI/UX aplikasi ini dapat dilihat di Figma:
 👉 [Link ke Figma] (https://www.figma.com/design/FhIfiTB6u2I7tNPkfVLwcx/FrameLab?node-id=5-5&t=K2wlLDUjJWsELcCc-1)
 
 **Catatan**
+
 Aplikasi ini belum diluncurkan secara publik dan masih dalam tahap pengembangan.  
 Integrasi pembayaran hanya mendukung QRIS untuk memudahkan transaksi pengguna.
