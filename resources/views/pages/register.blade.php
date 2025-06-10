@@ -44,7 +44,6 @@
         <div class="flex justify-center mt-4">
             {!! NoCaptcha::display() !!}
 </div>
-<!-- Tambahkan ini -->
 @error('g-recaptcha-response')
     <p class="text-sm text-red-500 mt-2 text-center">{{ $message }}</p>
 @enderror
